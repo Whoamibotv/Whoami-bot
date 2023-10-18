@@ -1,0 +1,32 @@
+depois você vai criar uma pasta chamada package.json dentro da pasta você vai colocar isso
+
+
+{ "name": "bot", 
+"version": "1.0.0", 
+"description": "", 
+"main": "index.js", 
+"scripts": { 
+"start": "node index.js" 
+}, 
+"author": "rony", 
+"license": "ISC", 
+"dependencies": { 
+"@adiwajshing/baileys": "^5.0.0", 
+"@adiwajshing/keyed-db": "^0.2.4", 
+"qrcode-terminal": "^0.12.0", 
+"pino": "^7.11.0", 
+"fs": "^0.0.1-security", 
+"axios": "^0.24.0" 
+    } 
+}
+
+Dps vai no termux usar os seguintes comandos
+termux-setup-storage 
+pkg update
+ pkg upgrade 
+ pkg install yarn 
+ pkg install nodejs 
+ pkg install git 
+ cd /sdcard/novo_bot 
+ yarn 
+ node index.js
